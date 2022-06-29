@@ -1,0 +1,32 @@
+p vl=-60,vna=55.,vk=-80.,thetam=30,sm=14.5.
+p gl=2,gna=37,gk=45
+p thetan=-32.,sn=-10
+p taun0=1, taun1=10., thn=20., sigman=-0.1
+p eps=.04
+p iapp=8.
+p wave = 1.
+
+minf(v)=1./(1.+exp(-(v+thetam)/sm))
+ninf(v)=1./(1.+exp((v-thetan)/sn))
+taun(v)=taun0+(taun1-taun0)/(1.+exp((v+thn)/sigman))
+
+il(v)=gl*(v-vl)
+ina(v,h)=gna*(minf(v))^3*h*(v-vna)
+ik(v,n)=gk*n^4*(v-vk)
+
+p isyn=0
+
+i v=-60
+i n=0.3
+i e = 0
+
+
+v'=-(il(v)+ina(v,.5-n)+ik(v,n))+iapp+2*isyn*e
+n'=eps*(ninf(v)-n)/taun(v)
+e' = cos(t*wave/400)/(300)
+
+
+@ dt=.4,total=20000,meth=qualrk,xp=t,yp=v,xlo=0,xhi=10000,ylo=-80,yhi=40.,bound=10000,maxstor=5000000
+
+done
+
