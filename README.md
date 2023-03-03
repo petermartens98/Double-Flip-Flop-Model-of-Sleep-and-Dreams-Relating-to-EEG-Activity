@@ -53,7 +53,7 @@ section (Quant Neruo Project.pdf).
 ### Nullcline and integration for alpha waves. Notably more activity due to a longer time spent in an excitatory state due to the frequency of firing shifting with the modulation of periodic variable e.Whenever the model attempts to settle due to the inhibitory wave, it is pushed back into an excitatory state as the nullcline shifts with the increase of isyn. Then, as e decreases, isyn eventually becomes negative or 0, inducing an inhibitory state. 
 ![image](https://user-images.githubusercontent.com/87671757/222849300-78bdc948-b4a8-443e-b548-61ea50f822e6.png)
 
-## ------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------
 
 # Theta Waves
 
@@ -69,7 +69,7 @@ section (Quant Neruo Project.pdf).
 ### Nullcline and integration for theta waves. Less activity than alpha due to a shorter time spent in an excitatory state due to the frequency of firing shifting with the modulation of periodic variable e. Whenever the model attempts to settle due to the inhibitory wave, it is pushed back into an excitatory state as the nullcline shifts with the increase of isyn. Then, as e decreases, isyn eventually becomes negative or 0, inducing an inhibitory state. 
 ![image](https://user-images.githubusercontent.com/87671757/222847299-0a84a250-b127-4a80-b75f-4b17277caa73.png)
 
-## ------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------
 
 # Delta Waves
 
@@ -85,7 +85,7 @@ section (Quant Neruo Project.pdf).
 ### Nullcline and integration for delta waves. Lowest activity due to having the shortest time spent in an excitatory state due to the frequency of firing shifting with the modulation of periodic variable e. Whenever the model attempts to settle due to the inhibitory wave, it is pushed back into an excitatory state as the nullcline shifts with the increase of isyn. Then, as e decreases, isyn eventually becomes negative or 0, inducing an inhibitory state. 
 ![image](https://user-images.githubusercontent.com/87671757/222846731-ef01bf47-56c6-4d35-8a32-a336eb04b522.png)
 
-## ------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------
 
 # Beta Waves
 
