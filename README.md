@@ -2,7 +2,7 @@
 
 #### Coming Soon: Audio of Project
 
-### Project Summary
+## Project Summary
 
 Sleep and dreams have been studied both biologically and psychologically for many
 years now, making a large niche in the literature of consciousness and altered states. Along with
@@ -37,4 +37,30 @@ chemical change that alters the voltage of the synaptic firings, as well as the 
 are sent. This is most likely done via neurotransmitters, and is explored further in the discussion
 section (Quant Neruo Project.pdf).
 
-### Neuronal Firing Wave Patterns (Created
+## Neuronal Firing Model (Created in MATLAB)
+
+## Alpha Waves
+
+#### Starting firing rate of an Alpha wave 
+![image](https://user-images.githubusercontent.com/87671757/222845091-9624a9e2-eb38-4524-b894-0b4ac0191ffd.png)
+
+#### XPP modeled firing pattern for an Alpha Wave, shown at 10000 ms. Inhibition wave starts a little after 1200 ms, then again around 3600 and so on. 
+![image](https://user-images.githubusercontent.com/87671757/222845443-9e0acec2-030e-4f96-a2af-3f9d7441c729.png)
+
+#### Alpha wave pattern exhibited at a scale of 1000 ms 
+![image](https://user-images.githubusercontent.com/87671757/222845742-9895c527-89e5-46a2-90b7-5faa974e2d40.png)
+
+## Theta Waves
+
+#### Starting firing rate of an Theta wave 
+![image](https://user-images.githubusercontent.com/87671757/222845122-1bb68d76-2c46-4399-bc5b-5a36d46c7f98.png)
+
+## Delta Waves
+
+#### Starting firing rate of an Delta wave 
+![image](https://user-images.githubusercontent.com/87671757/222845132-516d2811-9c65-4365-9a78-1b3e5a3b360a.png)
+
+## Beta Waves
+
+#### Starting firing rate of an Beta wave 
+![image](https://user-images.githubusercontent.com/87671757/222845156-b4ea8f13-e5af-4fe1-8134-d1cc98d3b1bf.png)
