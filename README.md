@@ -1,6 +1,6 @@
 # Double-Flip-Flop-Model-of-Sleep-and-Dreams-in-Relation-to-EEG-Activity
 
-#### Coming Soon: Audio of Project
+### Project Audio: https://www.youtube.com/watch?v=-V3ur4P0AGI
 
 # Project Summary
 
